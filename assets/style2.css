@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.icon{
+    color: black;
+    height: 24px;
+    width: 24px;
+}
+
+.center{
+    display:flex;
+    margin: auto;
+    width: auto;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    border-bottom: 1px solid #dfdfdf;
+    height: 60px;
+}
+
+.Logo{
+    width: 316px;
+    height: 59px;
+}
+
+.imgLogo{
+    width:103px;
+    height: 29px;
+    margin-top: 5%;
+}
+
+.search{
+    display: flex;
+    margin: auto 0;
+}
+
+.icon-search{
+    color: grey;
+    height: 2rem;
+    position: absolute;
+    top: 1.3rem;
+    margin-left: 10px;
+    transition: all 0.1s;
+    transition-delay: 0.1s;
+}
+
+.searchbar{
+    width: 268px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #efefef;
+    border:0px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto",Helvetica,Arial,sans-serif;
+    padding-left: 35px;
+    font-size: 16px;
+    margin-right: 25px;
+}
+
+.navigation{
+    display: flex;
+    margin: auto 0;
+    width: auto;
+}
+
+.menuDeroulantPdp{
+    position: absolute;
+    right: 300px;
+    z-index: 1;
+    visibility: hidden;
+    top: 50px;
+    width: 230px;
+    height: 185px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 0 solid #ffffff;
+    box-shadow: 0px 2px 5px 6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 5px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 6px rgba(0,0,0,0.75);
+}
+
+.profil{
+    display: flex;
+    top: 50%;
+    width: 230px;
+    height: 37px;
+}
+
+.profil:hover, .deconnexion:hover{
+    background-color: #dfdfdf;
+}
+
+.deconnexion{
+    display: flex;
+    width: 230px;
+    height: 37px;
+}
+
+.formulaire{
+    width: 230px;
+    height: 37px;
+}
+
+.btndeco{
+    border: 0px;
+    width: 230px;
+    height: 37px;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+}
+
+.text{
+    display: flex; 
+    margin: auto 25px;
+    color: black;
+}
+
+.test2{
+    display:flex;
+    width: 230px;
+    height: 37px;
+    margin: auto;
+}
+
+.partie_principale{
+    width:935px;
+    height: 10227px;
+    padding-top:30px;
+    position: relative;
+}
+
+div[class="navigation"] > a{
+    margin: auto 10px;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    max-width: 293px;
+}
+
+.test{
+    position:relative;
+    width: 293px;
+    height: 723.2px;
+}

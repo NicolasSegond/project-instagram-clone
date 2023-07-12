@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lien{
+    text-decoration: none;
+    color: #50709f;
+}
+
+.phone{
+    width: 400px;
+    height: 580.15px;
+    background-image: url(../assets/phone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section_principale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto auto auto;
+    width: auto;
+}
+
+.section_principale2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto 15% auto;
+    width: auto;
+}
+
+.Logo{
+    display: flex;
+    margin: 36px auto 0px auto;
+    width: 175px;
+}
+
+.ssTitre{
+    display: flex;
+    color: #8e8e8e;
+    width: 268px;
+    margin: 5px auto;
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.btnFacebook{
+    display: flex;
+    background-color: #0095f6;
+    border: 1px solid transparent;
+    padding: 5px 9px;
+    border-radius: 5px;
+    width: 268px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.FacebookText{
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form{
+    width: 400px;
+    height: 580.15px;
+}
+
+.input{
+    display:flex;
+    width:268px;
+    height: 36px;
+    border: 1px solid #dfdfdf;
+    margin: 0px auto 6px auto;
+    border-radius: 5px;
+    background-color: #fafafa;
+    padding: 0 5px;
+}
+
+.input::placeholder{
+    color: grey;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.btnConnexion{
+    display: flex;
+    width:268px;
+    height:30px;
+    border-radius: 5px;
+    background-color: #b2dffc;
+    border: 0px;
+    margin: 8px auto 8px auto;
+    cursor: pointer;
+}
+
+.paragraphe{
+    display: flex;
+    width: 268px;
+    text-align: center;
+    margin: 0 auto;
+    color :#8e8e8e;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto",Helvetica,Arial,sans-serif;
+}
+
+.btnText{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto",Helvetica,Arial,sans-serif;
+    margin: auto auto;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 18px 0;
+}
+
+.text{
+    color: grey;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ligne{
+    display: flex;
+    margin: auto 5px;
+    border-bottom: 1px solid #dfdfdf;
+    width: 100px;
+    height: 1px;
+}
+
+.facebook{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.mdpOublier{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.formulaireContact{
+    border: 1px solid #dfdfdf;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+.formulaireContact2{
+    border: 1px solid #dfdfdf;
+    width: 350px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.creationComptes{
+    display: flex;
+    border: 1px solid #dfdfdf;
+    height: 63px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.center{
+    display:flex;
+    margin: auto auto;
+    width: auto;
+    justify-content: center;
+}
+
+.telechargement{
+    width: 350px;
+    height: auto;
+}
+
+
+.img{
+    width: 136px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+footer > div > a{
+    display: flex;
+    width: auto;
+    margin: 0 8px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto",Helvetica,Arial,sans-serif;
+    color: grey;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.selectBox{
+    border:0px;
+    font-size: 14px;
+    color: grey;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto",Helvetica,Arial,sans-serif;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: auto;
+}
